@@ -7,7 +7,8 @@
   "scripts": {
     "build:ts": "rm -rf www/js && tsc",
     "build:apk": "./build.sh",
-    "build": "npm run build:ts && npm run build:apk",
+    "build:web": "./web.sh",
+    "build": "npm run build:ts && npm run build:apk && npm run build:web",
     "keystore": "./keystore.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
