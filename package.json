@@ -1,0 +1,37 @@
+{
+  "name": "io.donotnut",
+  "displayName": "donotnut",
+  "version": "1.0.0",
+  "description": "recreating the famous donut.c using TypeScript & Cordova but making it more kawaii",
+  "main": "www/js/index.js",
+  "scripts": {
+    "build:ts": "rm -rf www/js && tsc",
+    "build:apk": "./build.sh",
+    "build": "npm run build:ts && npm run build:apk",
+    "keystore": "./keystore.sh",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier -w ."
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Baalateja Kataru",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.18",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "cordova-android": "^12.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}

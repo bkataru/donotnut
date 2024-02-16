@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "./donotnut.keystore",
+            "storePassword": "nutnot",
+            "alias": "donotnut-alias",
+            "password" : "nutnot",
+            "keystoreType": "jks"
+        },
+        "release": {
+            "keystore": "./donotnut.keystore",
+            "storePassword": "nutnot",
+            "alias": "donotnut-alias",
+            "password" : "nutnot",
+            "keystoreType": "jks"
+        }
+    }
+}

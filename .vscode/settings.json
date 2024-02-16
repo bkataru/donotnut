@@ -1,0 +1,146 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "left",
+    "workbench.fontAliasing": "default",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.list.smoothScrolling": true,
+
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.symbolPath": "on",
+
+    "terminal.explorerKind": "external",
+    "terminal.integrated.macOptionIsMeta": true,
+    "terminal.integrated.fontFamily": "'Fira Code', monospace",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.defaultProfile.linux": "fish",
+
+    "explorer.autoReveal": true,
+    "explorer.sortOrder": "type",
+
+    "editor.wordWrap": "on",
+    "editor.autoIndent": "full",
+
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line",
+
+    "editor.renderWhitespace": "boundary",
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "editor.snippetSuggestions": "top",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.fontSize": 12,
+    "editor.letterSpacing": 0,
+    "editor.lineHeight": 0,
+
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.showFoldingControls": "always",
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.renderLineHighlight": "all",
+    "editor.cursorSurroundingLines": 90,
+    "editor.lineNumbers": "on",
+
+    "editor.minimap.enabled": true,
+
+    "editor.multiCursorModifier": "alt",
+
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+
+    "editor.linkedEditing": true,
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 4,
+    "editor.indentSize": "tabSize",
+    "editor.detectIndentation": false,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": "always",
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+
+    "search.showLineNumbers": true,
+
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+
+    "eslint.validate": ["html", "css", "javascript", "typescript"],
+    "eslint.workingDirectories": [{ "mode": "auto" }],
+    "eslint.run": "onType",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+
+    "todo-tree.general.statusBar": "total",
+
+    "codeium.enableConfig": {
+      "*": true,
+      "markdown": true
+    },
+
+    "css.lint.important": "warning",
+
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#d072f3",
+      "activityBar.background": "#d072f3",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#f5d88a",
+      "activityBarBadge.foreground": "#15202b",
+      "commandCenter.border": "#e7e7e799",
+      "sash.hoverBorder": "#d072f3",
+      "statusBar.background": "#c043ef",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#d072f3",
+      "statusBarItem.remoteBackground": "#c043ef",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "titleBar.activeBackground": "#c043ef",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#c043ef99",
+      "titleBar.inactiveForeground": "#e7e7e799",
+    },
+    "peacock.remoteColor": "#c043ef"
+}
